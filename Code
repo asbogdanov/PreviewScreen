@@ -1,5 +1,6 @@
 import SwiftUI
 
+// в конец кода
 struct SwiftUIController: UIViewControllerRepresentable {
     typealias UIViewControllerType = ViewController // меняем на название своего вьюконтроллера
     func makeUIViewController(context: Context) -> UIViewControllerType {
